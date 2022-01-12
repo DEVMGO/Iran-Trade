@@ -1,0 +1,65 @@
+#footer {
+    background: rgba(224, 222, 222, 0.377);
+    padding: 2rem 0;
+}
+#footer h4 {
+    color: #f84851;
+    font-size: 1.3rem;
+}
+#footer .ir-data {
+    display: flex;
+    text-align: initial;
+}
+#footer .ir-data .logo-foot {
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+    background: #fff;
+    height: fit-content;
+}
+#footer .ir-data .logo-foot img {
+    width: 5rem;
+    border-radius: 0.5rem;
+}
+#footer .ir-data p {
+    text-align: justify;
+    color: rgb(82, 89, 95);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+#footer .ir-data .ir-text {
+    margin-right: 1rem;
+}
+#footer .links {
+    text-align: initial;
+    padding: 0 3rem;
+}
+#footer .links .link {
+    display: flex;
+    flex-direction: column;
+    text-align: initial;
+}
+#footer .links .link a {
+    color: rgb(82, 89, 95);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+#footer .contact {
+    text-align: initial;
+    padding: 0 3rem;
+}
+#footer .contact .item-contact {
+    color: rgb(82, 89, 95);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+#footer .contact .item-contact span {
+    margin-left: 1rem;
+}
+
+#footer .copy-right {
+    color: #f84851;
+    text-align: initial;
+    font-weight: 600;
+}

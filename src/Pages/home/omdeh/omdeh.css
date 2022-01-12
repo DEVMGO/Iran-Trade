@@ -1,0 +1,26 @@
+#Omdeh {
+    margin-bottom: 5rem;
+}
+#Omdeh .title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+#Omdeh .title hr {
+    color: #000000;
+    width: 100px;
+    height: 2px;
+    border-radius: .5rem;
+}
+#Omdeh .title h4 {
+    margin: 0 2rem;
+    color: #004b5f;
+    font-weight: 700;
+}
+
+#Omdeh .more {
+    color: #f84851;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}

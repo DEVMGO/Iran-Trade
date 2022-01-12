@@ -1,0 +1,54 @@
+#saderat {
+    margin-bottom: 5rem;
+}
+#saderat .title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+#saderat .title hr {
+    color: #000000;
+    width: 100px;
+    height: 2px;
+    border-radius: .5rem;
+}
+#saderat .title h4 {
+    margin: 0 2rem;
+    color: #004b5f;
+    font-weight: 700;
+}
+
+#saderat .tarikh .tarikh-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#saderat .tarikh .tarikh-select {
+    display: flex;
+    align-items: center;
+    color: #073542;
+    font-weight: 600;
+}
+
+#saderat .tarikh .form-select {
+    width: 6rem;
+    margin-right: 1rem;
+    font-weight: 600;
+    border: none;
+}
+
+#saderat .charts {
+    width: 100%;
+    margin: 2rem 0 0;
+    padding: 1rem 2rem 4rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.3);
+}
+#saderat .chart h4 {
+    color: #20687c;
+    text-align: initial;
+    margin: 2rem 0;
+}
+#saderat .chart {
+    margin-inline: auto;
+}

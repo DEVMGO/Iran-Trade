@@ -1,0 +1,58 @@
+#cover {
+    margin-bottom: 5rem;
+}
+
+#cover .text-cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: initial;
+    padding: 0 5rem;
+}
+#cover .text-cover h4 {
+    color: #005067;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+#cover .text-cover p {
+    width: 50%;
+    color: #435155;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+#cover .form-serch input {
+    width: 250px;
+    margin-left: 1rem;
+    background: #e0e6e6;
+    outline: none;
+    border: none;
+}
+#cover .form-serch input::placeholder {
+    font-size: .8rem;
+    font-weight: 600;
+}
+#cover .form-serch button {
+    color: #fff;
+    background: #ff626b;
+    border: none;
+    padding: .4rem 1.1rem .7rem;
+}
+#cover .form-serch button:hover {
+    background: #da1b24;
+    box-shadow: 0 1px 15px #da1b24;
+}
+
+#cover .img-cover img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 990px) {
+    #cover .text-cover {
+        margin-top: 2rem;
+    }
+}

@@ -1,0 +1,76 @@
+.navbar {
+    background: rgb(255, 255, 255);
+}
+
+.navbar-brand {
+    width: 4rem;
+    margin-left: 1.5rem;
+}
+
+#navbrand {
+    width: 100%;
+    transition: 1s;
+}
+
+.nav-items {
+    width: 100%;
+}
+.nav-items .nav-link {
+    color: #398ca3 !important;
+    font-weight: 400;
+    transition: 1s;
+    position: relative;
+    width: initial !important;
+}
+.nav-items .nav-link:hover {
+    color: #005067;
+    transition: 0s;
+    font-weight: 700;
+}
+
+.nav-items .nav-link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    font-weight: 700;
+    border-bottom: #005067 solid 2px;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+}
+.nav-items .nav-link:hover:before,
+.nav-items .nav-link.active:before,
+.nav-items .nav-link.active {
+    width: 100%;
+    font-weight: 700;
+    color: #005067 !important;
+}
+
+.nav-login {
+    width: 48%;
+    justify-content: end;
+}
+
+.nav-login .login {
+    text-decoration: none;
+    color: #005067;
+    transition: .5s ease;
+    border-radius: 10%;
+    padding: 0 .2rem;
+}
+
+.nav-login .sign-in {
+    text-decoration: none;
+    background: #ff626b;
+    color: #fff !important;
+    transition: .5s ease;
+    border-radius: .6rem;
+    padding: 0.4rem 1.1rem .6rem !important;
+    margin-right: .8rem;
+}
+.nav-login .sign-in:hover {
+    background: #da1b24;
+    box-shadow: 0 1px 15px #da1b24;
+}
